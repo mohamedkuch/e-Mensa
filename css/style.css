@@ -1,0 +1,101 @@
+﻿/*
+    ### Custom CSS ###
+
+    Google Fonts    
+        font-family: 'Dosis', sans-serif;      (carousel Caption)
+        font-family: 'Quicksand', sans-serif;  (widget_title)
+        font-family: 'Quicksand', sans-serif;  (widget_description)
+        font-family: 'Pacifico', cursive;      (mainContent Title
+*/
+
+/*
+    ### Navbar Style ###
+*/
+.active_nav_item {
+    border-bottom: 4px solid #00b5ad !important;
+}
+.main_navbar ul li:hover {
+    border-bottom: 4px solid #00b5ad;
+    transition: all 0.2s ease;
+}
+.main_navbar_search button {
+    color:#00b5ad;
+    border-color:#00b5ad;
+    cursor: pointer;
+}
+.main_navbar_search button:hover {
+    background-color: #00b5ad;
+    border-color: #00b5ad;
+    box-shadow: 0 0 5px #00b5ad;
+    transition: all 0.5s ease;
+}
+/*
+    ### Carousel Style ###
+*/
+.carouselCaption_bg {
+    font-family: 'Dosis', sans-serif;
+    width: 40%;
+    color: #323232;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 39px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 39px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 39px -2px rgba(0,0,0,0.75);
+    border: 1px solid #7f8c8d;
+    border-radius: 5px;
+}
+.carouselCaption_bg span {
+    color: #ecf0f1;
+    background-color: #00b5ad;
+    border: 1px solid #00b5ad;
+    border-radius: 8px;
+}
+
+/*
+    ### Sidebar Style ###
+*/
+.widget_title {
+    background-color: #00b5ad;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+.widget {
+    background-color: #ecf0f1;
+}
+.widget_description {
+    font-family: font-family: 'Quicksand', sans-serif;
+}
+
+/*
+    ### MainContent ###
+*/
+
+.main_content_button a,.main_content_button a:hover {
+    border-color: #00b5ad;
+    background-color: #00b5ad;
+}
+.main_content_title {
+    font-family: 'Pacifico', cursive;
+}
+/*
+    ### mainCarousel ###
+*/
+#main_Carousel {
+    background-color: #ecf0f1;
+} 
+.mainCarousel_item img {
+    border: 2px solid #00b5ad;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.87);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.87);
+}
+.main_carousel_control {
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 2px;
+    color: #fff;
+}
+.main_carousel_control:hover {
+    background-color:#00b5ad;
+    box-shadow: 0 0 5px #00b5ad;
+    transition: all 0.5s ease;
+    color : #fff;
+}
