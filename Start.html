@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
-    <title>Start</title>
     <!-- JS Files -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -35,6 +34,8 @@
             })
         });
     </script>  
+
+    <title>Start</title>
 </head>
 <body>
     <!-- Header -->
@@ -52,10 +53,10 @@
                     <div class="collapse navbar-collapse main_navbar" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link active_nav_item" href="#">Start <span class="sr-only">(current)</span></a>
+                                <a class="nav-link active_nav_item" href="Start.html">Start <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item hvr-underline-from-left">
-                                <a class="nav-link" href="#">Mahlzeiten</a>
+                                <a class="nav-link" href="Produkte.html">Mahlzeiten</a>
                             </li>
                             <li class="nav-item hvr-underline-from-left">
                                 <a class="nav-link" href="#">Bestellung</a>
@@ -66,8 +67,9 @@
                         </ul>
 
                         <!-- Search -->
-                        <form class="form-inline ml-xl-4 main_navbar_search">
-                            <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+
+                        <form  method="get" action="http://www.google.com/search" class="form-inline ml-xl-4 main_navbar_search">
+                            <input class="form-control mr-sm-1" type="search" placeholder="Google Search" name="q" aria-label="Search">
                             <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
 
                         </form>
@@ -186,18 +188,18 @@
                         <div id="main_Carousel" class="col-lg-10 offset-lg-1 mt-2 p-3 carousel slide">
                    
                             <div class="row justify-content-center align-items-center">
-                                <div class="col-lg-1">
+                                <div class="col-lg-1 col-sm-1">
                                     <a class="main_carousel_control p-2" href="#main_Carousel" role="button" data-slide="prev">
                                         <i class="fa fa-arrow-left" aria-hidden="true"></i>
                                     </a>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lg-10 col-sm-10">
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
 
                                     <div class="carousel-item active">
                                         <div class="row mainCarousel_item">
-                                            <div class="col-md-4"><a href="#" class="thumbnail"><img src="images/burger-thumbnail.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                            <div class="col-md-4 "><a href="#" class="thumbnail"><img src="images/burger-thumbnail.jpg" alt="Image" style="max-width:100%;"></a></div>
                                             <div class="col-md-4"><a href="#" class="thumbnail"><img src="images/gyros-thumbnail.jpg" alt="Image" style="max-width:100%;"></a></div>
                                             <div class="col-md-4"><a href="#" class="thumbnail"><img src="images/lasagne-thumbnail.jpg" alt="Image" style="max-width:100%;"></a></div>
                                             
@@ -218,7 +220,7 @@
 
                                 </div><!--.carousel-inner-->
                                 </div>
-                                <div class="col-lg-1">
+                                <div class="col-lg-1 col-sm-1">
                                     <a class="main_carousel_control p-2" href="#main_Carousel" role="button" data-slide="next">
                                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                     </a>
