@@ -1,0 +1,35 @@
+﻿/*
+    #### Google Fonts #####
+       font-family: 'Saira Semi Condensed', sans-serif;(Product portfolio)
+
+*/
+
+.Produkte_main_title {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+.produkt_portfolio a img{
+    border: 2px solid #00b5ad;
+    border-radius : 3px;
+}
+.produkt_portfolio a img:hover {
+    border: 2px solid #00b5ad;
+    border-radius: 3px;
+    box-shadow: 0 0 25px #00b5ad;
+    transition: all 0.5s ease;
+}
+
+.filter_submit_button input{
+    background-color: rgba(0,0,0,0.75);
+    border :none;
+    color: #fff;
+}
+.filter_submit_button input:hover {
+    background-color: #00b5ad;
+    box-shadow: 0 0 5px #00b5ad;
+    transition: all 0.5s ease;
+    border-color : #00b5ad;
+    color: #fff;
+}
+.Produkte_kategorien label{
+    font-weight: bold;
+}
