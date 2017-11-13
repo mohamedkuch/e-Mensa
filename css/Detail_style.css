@@ -1,0 +1,24 @@
+﻿/*
+    #### Google Fonts #####
+        font-family: 'Saira Semi Condensed', sans-serif;(Product portfolio)
+        font-family: 'Ubuntu', sans-serif;
+*/
+.Detail_main_title {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #00b5ad;
+    color: #fff;
+}
+.Detail_main_title i {
+    color: #e74c3c;
+}
+.Detail_main_sidebar p {
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.Detail_preis {
+    background-color: #00b5ad;
+    color:#fff;
+}
+.Detail_tab li a {
+    color: #00b5ad;
+}

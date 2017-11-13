@@ -3,20 +3,28 @@
 
     Google Fonts    
         font-family: 'Dosis', sans-serif;      (carousel Caption)
-        font-family: 'Quicksand', sans-serif;  (widget_title)
-        font-family: 'Quicksand', sans-serif;  (widget_description)
+        font-family: 'Quicksand', sans-serif;  (widget_title) , (widget_description)
         font-family: 'Pacifico', cursive;      (mainContent Title
 */
 
 /*
     ### Navbar Style ###
 */
-.active_nav_item {
+.active_nav_item a{
     border-bottom: 4px solid #00b5ad !important;
 }
-.main_navbar ul li:hover {
+.active_nav_item a:hover {
+    border : none;
+    transition : none;
+}
+
+.main_navbar ul li a {
+    border-bottom: 4px solid #ecf0f1;
+}
+
+.main_navbar ul li a:hover {
     border-bottom: 4px solid #00b5ad;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 .main_navbar_search button {
     color:#00b5ad;
@@ -65,6 +73,20 @@
     font-family: font-family: 'Quicksand', sans-serif;
 }
 
+.widget_button input {
+    background-color: rgba(0,0,0,0.75);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.widget_button input:hover {
+    background-color: #00b5ad;
+    box-shadow: 0 0 5px #00b5ad;
+    transition: all 0.5s ease;
+    border-color: #00b5ad;
+    color: #fff;
+}
 /*
     ### MainContent ###
 */
